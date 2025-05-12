@@ -3,7 +3,7 @@
 BookKept is an app for user to be able to keep tracks of the books they have read with ease.
 
 **Link to project:** https://bookkept.netlify.app/
-![Bookkept Image](https://postimg.cc/JygmRh3N)
+![Bookkept Image](bookKept.png)
 
 ## How It's Made:
 
