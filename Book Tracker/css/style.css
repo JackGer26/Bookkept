@@ -1,0 +1,208 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+body {
+  background-image: url('../img/vecteezy_vector-graphic-design-illustration-of-a-stack-of_13651331.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+h3 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 56px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px #ccc;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#inputContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#inputContainer input {
+  width: 50%;
+  padding: 5px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+#inputContainer button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.container li:last-child {
+  border-bottom: none;
+}
+
+.delete-button {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #cc0000;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  font-size: 16px;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.acknowledgment {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #424141;
+  color: #666;
+  padding: 5px;
+  text-align: center;
+  font-size: 12px;
+  border-top: 1px solid #ccc;
+}
+
+.acknowledgment a {
+  color: #666;
+  text-decoration: none;
+}
+
+.acknowledgment a:hover {
+  color: #ccc;
+}
+
+/* Media queries */
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 300px;
+  }
+  #inputContainer input {
+    width: 60%;
+  }
+  #inputContainer button {
+    padding: 5px 5px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  .container {
+    font-size: 18px;
+  }
+  li {
+    padding: 8px;
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    max-width: 200px;
+  }
+  #inputContainer input {
+    width: 50%;
+  }
+  #inputContainer button {
+    padding: 5px 0;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .container {
+    font-size: 20px;
+  }
+  li {
+    padding: 6px;
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    max-width: 150px;
+  }
+  #inputContainer input {
+    width: 40%;
+  }
+  #inputContainer button {
+    padding: 5px 0;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  .container {
+    font-size: 22px;
+  }
+  li {
+    padding: 4px;
+    font-size: 20px;
+  }
+}
